@@ -1,0 +1,18 @@
+Simple RSS Parser/Scraper in Scala
+==================================
+
+This is a toy project which uses a set of Java/Scala libraries to
+build an RSS client which also scrapes the actual document following
+the links. This is designed to be an experiment in modularity and
+scraping utilities in Scala and never as a finished product.
+
+Building
+--------
+
+To build the application you will need the HorroRSS_ library for
+Java. Just drop the horrorss-2.0.0.jar and sparta.jar into a library
+called lib in the root of the project and SBT will take care of the
+rest. I am searching for a proper way of doing this
+automatically. Until then, bear with me...
+
+.. _HorroRSS: https://code.google.com/p/horrorss/
